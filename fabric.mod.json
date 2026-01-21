@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "terralith_no_structures",
+    "version": "1.0",
+    "name": "Terralith No Structures",
+    "description": "An official add-on to Terralith that removes all custom structures",
+    "authors": [
+        "catter1"
+    ],
+    "contact": {
+        "sources": "https://github.com/catter1/Terralith_No_Structures",
+        "issues": "https://github.com/catter1/Terralith_No_Structures/issues"
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.12.7",
+        "fabric-api-base": "*",
+        "minecraft": ">=1.20",
+        "terralith": ">=2.0.0"
+    },
+    "custom": {
+        "fabric:resource_load_order": {
+            "before": [
+                "terralith"
+            ]
+        }
+    }
+}

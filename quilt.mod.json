@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "dev.catter",
+        "id": "terralith_no_structures",
+        "version": "1.0",
+        "metadata": {
+            "name": "Terralith No Structures",
+            "description": "An official add-on to Terralith that removes all custom structures",
+            "contributors": {
+                "catter1": "Author"
+            },
+            "contact": {
+                "sources": "https://github.com/catter1/Terralith_No_Structures",
+                "issues": "https://github.com/catter1/Terralith_No_Structures/issues"
+            },
+            "license": "MIT",
+            "icon": "pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            },
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            },
+            {
+                "id": "terralith",
+                "versions": ">=2.0.0"
+            }
+        ]
+    }
+}

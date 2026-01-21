@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "description": "An official add-on to Terralith that removes all custom structures",
+        "pack_format": 15,
+        "supported_formats": [
+            15,
+            94
+        ],
+        "min_format": 15,
+        "max_format": 94
+    }
+}
