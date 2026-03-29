@@ -1,32 +1,26 @@
 modLoader="lowcodefml"
 loaderVersion="[1,)"
 license="MIT"
-issueTrackerURL="https://github.com/catter1/Terralith_ReStoned/issues"
+issueTrackerURL="https://github.com/catter1/Terralith_No_Structures/issues"
 
 [[mods]]
-    modId="terralith_restoned"
-    version="1.3"
-    displayName="Terralith ReStoned"
-    displayURL="https://github.com/catter1/Terralith_ReStoned"
+    modId="terralith_no_structures"
+    version="1.1"
+    displayName="Terralith: No Structures"
+    displayURL="https://github.com/catter1/Terralith_No_Structures"
     logoFile="pack.png"
     authors="catter1"
-    description="An UNOFFICIAL add-on to Terralith that re-adds normal Andesite, Diorite, and Granite blobs underground"
+    description="An official add-on to Terralith that removes Terralith's custom structures"
 
-[[dependencies.terralith_restoned]]
-    modId="neoforge"
-    mandatory=false
-    versionRange="[20,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.terralith_restoned]]
+[[dependencies.terralith_no_structures]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="[1.20,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.terralith_restoned]]
+[[dependencies.terralith_no_structures]]
     modId="terralith"
-    mandatory=false
+    type="optional"
     versionRange="[2.0,)"
     ordering="AFTER"
     side="BOTH"
